@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8864fe6.chunk.css",
+    "main.js": "/static/js/main.8a27ed65.chunk.js",
+    "main.js.map": "/static/js/main.8a27ed65.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2a4e9b94.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2a4e9b94.js.map",
+    "static/js/2.65adb9d2.chunk.js": "/static/js/2.65adb9d2.chunk.js",
+    "static/js/2.65adb9d2.chunk.js.map": "/static/js/2.65adb9d2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d8864fe6.chunk.css.map": "/static/css/main.d8864fe6.chunk.css.map",
+    "static/js/2.65adb9d2.chunk.js.LICENSE.txt": "/static/js/2.65adb9d2.chunk.js.LICENSE.txt",
+    "static/media/Bludgeoning.4fd0097b.png": "/static/media/Bludgeoning.4fd0097b.png",
+    "static/media/Cold.81cc0fae.png": "/static/media/Cold.81cc0fae.png",
+    "static/media/Fire.124095b5.png": "/static/media/Fire.124095b5.png",
+    "static/media/Force.14535643.png": "/static/media/Force.14535643.png",
+    "static/media/Piercing.24a82f90.png": "/static/media/Piercing.24a82f90.png",
+    "static/media/Poison.1115829c.png": "/static/media/Poison.1115829c.png",
+    "static/media/Psychic.ffad2141.png": "/static/media/Psychic.ffad2141.png",
+    "static/media/Radiant.961657ed.png": "/static/media/Radiant.961657ed.png",
+    "static/media/Thunder.6d26d33b.png": "/static/media/Thunder.6d26d33b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a4e9b94.js",
+    "static/js/2.65adb9d2.chunk.js",
+    "static/css/main.d8864fe6.chunk.css",
+    "static/js/main.8a27ed65.chunk.js"
+  ]
+}
