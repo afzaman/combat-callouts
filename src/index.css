@@ -1,3 +1,12 @@
+:root {
+  --main-bg-color: #323741;
+  --card-bg-color: #bebba8;
+  --main-txt-color: #F4EDEA;
+  --main-btn-color: #363e4d;
+  --callout-txt-color: brown;
+  --btn-hover-color: #475164;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: orange;
+  background-color: var(--main-bg-color);
   height: 100%;
 }
 
@@ -15,17 +24,27 @@ code {
 }
 
 img {
-  max-width: 100px;
+  max-width: 125px;
 }
 
 button {
-  background-color: cornsilk;
+  background-color: var(--main-btn-color);
+  color: var(--main-txt-color);
   border: 0;
   border-radius: 5px;
   width: 90%;
   height: 50px;
   margin: 1%;
   font-size: inherit;
+}
+
+button:hover {
+  background-color: var(--btn-hover-color)
+}
+
+button:active {
+  background-color: var(--btn-hover-color);
+  transform: translateY(2px);
 }
 
 .wrapper {
@@ -38,7 +57,7 @@ button {
   text-align: center;
   font-size: 50px;
   font-weight: 900;
-  color: rgb(185, 121, 0);
+  color: var(--main-txt-color);
 }
 
 .callout {
@@ -48,13 +67,13 @@ button {
   font-size: xx-large;
   font-weight: 700;
   text-align: center;
-  color: brown;
+  color: var(--callout-txt-color);
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .card {
@@ -64,9 +83,10 @@ button {
   text-align: center;
   align-content: center;
   border-radius: 30px;
-  background-color: cadetblue;
-  margin: 5px;
+  background-color: var(--card-bg-color);
+  margin: 10px;
   min-width: 250px;
+  box-shadow: 0 10px #666;
 }
 
 .footer {
