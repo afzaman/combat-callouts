@@ -6,7 +6,7 @@ import Callouts from './resources/Callouts'
 
 function App() {
 
-  const [callout, changeCallout] = useState("")
+  const [callout, changeCallout] = useState("The DM says...")
 
   function handleClick(type, result){
     const typeFilter = Callouts.filter(e => e.type === type)
@@ -17,15 +17,20 @@ function App() {
 
   return (
     <div>
-      <div>{callout}</div>
-      <div>
-        {Images.map((damageType) =>
-          <Damage key={damageType.name} type={damageType} handleClick={handleClick}/>
-        )}
+      <div className="wrapper">
+        <div className="title">Combat Callouts</div>
+        <div className="callout">{callout}</div>
+        <div className="card-container">
+          {Images.map((damageType) =>
+            <Damage key={damageType.name} type={damageType} handleClick={handleClick}/>
+          )}
+        </div>
       </div>
-      <div>
+      
+      <div className="footer">
         <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </div>
+      
     </div>
   );
 }

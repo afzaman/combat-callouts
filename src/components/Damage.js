@@ -8,9 +8,9 @@ function Damage(props) {
 
   return (
 
-    <div>
-        {name}
-        <img src={src} alt="X" />
+    <div className="card">
+        <img src={src} alt={name} />
+        <div>{name}</div>
         <button onClick={handleClick.bind(this, name, "hit")}>Hit</button>
         <button onClick={handleClick.bind(this, name, "miss")}>Miss</button>
     </div>
