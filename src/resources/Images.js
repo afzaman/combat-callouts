@@ -11,6 +11,7 @@ import Lightning from "../Images/Lightning.png"
 import Thunder from "../Images/Thunder.png"
 import Force from "../Images/Force.png"
 import Psychic from "../Images/Psychic.png"
+import Ranged from "../Images/Ranged.png"
 
 const Images = [
     {
@@ -24,6 +25,10 @@ const Images = [
     {
         "name" : "Bludgeoning",
         "src" : Bludgeoning
+    },
+    {
+        "name" : "Ranged",
+        "src" : Ranged
     },
     {
         "name" : "Poison",
