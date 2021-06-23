@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/combat-callouts/static/css/main.d8864fe6.chunk.css",
-    "main.js": "/combat-callouts/static/js/main.a0197279.chunk.js",
-    "main.js.map": "/combat-callouts/static/js/main.a0197279.chunk.js.map",
+    "main.css": "/combat-callouts/static/css/main.c1fff07a.chunk.css",
+    "main.js": "/combat-callouts/static/js/main.e95528a2.chunk.js",
+    "main.js.map": "/combat-callouts/static/js/main.e95528a2.chunk.js.map",
     "runtime-main.js": "/combat-callouts/static/js/runtime-main.d9335ec2.js",
     "runtime-main.js.map": "/combat-callouts/static/js/runtime-main.d9335ec2.js.map",
     "static/js/2.65adb9d2.chunk.js": "/combat-callouts/static/js/2.65adb9d2.chunk.js",
     "static/js/2.65adb9d2.chunk.js.map": "/combat-callouts/static/js/2.65adb9d2.chunk.js.map",
     "index.html": "/combat-callouts/index.html",
-    "static/css/main.d8864fe6.chunk.css.map": "/combat-callouts/static/css/main.d8864fe6.chunk.css.map",
+    "static/css/main.c1fff07a.chunk.css.map": "/combat-callouts/static/css/main.c1fff07a.chunk.css.map",
     "static/js/2.65adb9d2.chunk.js.LICENSE.txt": "/combat-callouts/static/js/2.65adb9d2.chunk.js.LICENSE.txt",
     "static/media/Bludgeoning.4fd0097b.png": "/combat-callouts/static/media/Bludgeoning.4fd0097b.png",
     "static/media/Cold.81cc0fae.png": "/combat-callouts/static/media/Cold.81cc0fae.png",
@@ -18,12 +18,13 @@
     "static/media/Poison.1115829c.png": "/combat-callouts/static/media/Poison.1115829c.png",
     "static/media/Psychic.ffad2141.png": "/combat-callouts/static/media/Psychic.ffad2141.png",
     "static/media/Radiant.961657ed.png": "/combat-callouts/static/media/Radiant.961657ed.png",
+    "static/media/Ranged.f7194358.png": "/combat-callouts/static/media/Ranged.f7194358.png",
     "static/media/Thunder.6d26d33b.png": "/combat-callouts/static/media/Thunder.6d26d33b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d9335ec2.js",
     "static/js/2.65adb9d2.chunk.js",
-    "static/css/main.d8864fe6.chunk.css",
-    "static/js/main.a0197279.chunk.js"
+    "static/css/main.c1fff07a.chunk.css",
+    "static/js/main.e95528a2.chunk.js"
   ]
 }
