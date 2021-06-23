@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/combat-callouts/static/css/main.d8864fe6.chunk.css",
-    "main.js": "/combat-callouts/static/js/main.8a27ed65.chunk.js",
-    "main.js.map": "/combat-callouts/static/js/main.8a27ed65.chunk.js.map",
+    "main.js": "/combat-callouts/static/js/main.a0197279.chunk.js",
+    "main.js.map": "/combat-callouts/static/js/main.a0197279.chunk.js.map",
     "runtime-main.js": "/combat-callouts/static/js/runtime-main.d9335ec2.js",
     "runtime-main.js.map": "/combat-callouts/static/js/runtime-main.d9335ec2.js.map",
     "static/js/2.65adb9d2.chunk.js": "/combat-callouts/static/js/2.65adb9d2.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.d9335ec2.js",
     "static/js/2.65adb9d2.chunk.js",
     "static/css/main.d8864fe6.chunk.css",
-    "static/js/main.8a27ed65.chunk.js"
+    "static/js/main.a0197279.chunk.js"
   ]
 }
